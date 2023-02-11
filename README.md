@@ -8,6 +8,8 @@ Simple user card component
 
 Easily implement into your projects, just copy "user-card.vue" into your project.
 
+Mobile friendly.
+
 External props passed to the component:
 
 ```json
