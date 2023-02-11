@@ -2,6 +2,8 @@
 
 Simple user card component
 
+#### DEMO https://vue-user-card.netlify.app/
+
 ![vue-user-avatar.png](src%2Fassets%2Fvue-user-avatar.png)
 
 ![vue-user-card.gif](src%2Fassets%2Fvue-user-card.gif)
