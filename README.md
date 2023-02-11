@@ -12,7 +12,7 @@ Mobile friendly.
 
 External props passed to the component:
 
-```json
+```
 data() {
   return{
       user: {
