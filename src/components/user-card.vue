@@ -1,6 +1,6 @@
 <template>
   <div class="user-card" :class="{'toggle-index': toggle}"
-       tabindex="1" @focus="togglePop(true)" @focusout="togglePop(false)">
+       tabindex="0" @focus="togglePop(true)" @focusout="togglePop(false)">
     <div class="user-card_avatar" @mouseover="togglePop(true)">
       <img :src="userData.avatar" :class="{'user-card_avatar_border': toggle}" alt="user-avatar" />
     </div>
@@ -159,7 +159,10 @@ export default {
   color:#fff;
   border-radius: 1rem;
   border:none;
+  transition: all .2s;
+  cursor: pointer;
 }
+.user-card_cta:hover {box-shadow: 0 0 .5rem  var(--card-accent-color)}
 /* TOGGLE */
 .toggle-show {
   opacity: 0;
